@@ -1,0 +1,83 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    padding: 1rem;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 10;
+}
+.Logo h1{
+    /* position: fixed; */
+    top: 1rem;
+    left: 1rem;
+}
+.NavList{
+    display: flex;
+}
+.NavList li{
+    padding: 0 1rem;
+    list-style-type: none;
+}
+.NavList li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+.NavList li a:hover{
+    color: rgb(167, 56, 74);
+}
+.Hamburger{
+    display: none;
+}
+@media screen and (max-width: 700px){
+    .NavList{
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        z-index: -3;
+        left: -100%;
+        transition: 0.3s;
+    }
+    .NavList.active{
+        left: 0;
+    }
+    .NavList li{
+        padding: 1rem 0;
+    }
+    .NavList li a {
+        font-size: 2rem;
+    }
+    .Hamburger{
+        display: initial;
+        position: fixed;
+        top: 1.5rem;
+        right: 1rem;
+        color: white;
+        font-size: 25px;
+    }
+}
+
+
+/* .NavList{
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    width: 100%;
+    height: 100vh;
+    left: -100%;
+    transition: 0.3s;
+} */

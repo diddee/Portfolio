@@ -1,0 +1,72 @@
+.ContactPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 20%;
+    height: 100%;
+    background-color: black;
+    padding: 1rem 0;
+}
+.Intro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Intro h1{
+    color: rgb(167, 56, 74);
+
+}
+.Intro p{
+    font-size: 1.3rem;
+    margin-top: .5rem;
+    text-align: center;
+}
+.Form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5em;
+}
+.Form form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Form input, .Form textarea, .Form button{
+    width: 90%;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    /* background-color: rgb(58, 58, 58); */
+    background-color: rgba(215, 255, 251, 0.2);
+}
+.Form button{
+    background-color: rgb(167, 56, 74);
+
+}
+
+@media screen and (max-width: 600px) {
+    .Intro p{
+        font-size: .9rem;
+    }
+
+    .Form form{
+        width: 70%;
+    }
+    .Form button{
+        text-transform: capitalize;
+    }
+
+}

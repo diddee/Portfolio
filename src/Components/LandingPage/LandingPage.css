@@ -1,0 +1,73 @@
+.LandingPage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+}
+.Home-Section{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.Img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.Img::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.Content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.Content h1{
+    font-size: 2rem;
+    padding: 0.6rem 0 1.5rem 0;
+}
+.Content p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.Content .Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 2rem 0;
+
+}
+.Btn{
+    margin: 0 1rem;
+    width: 25%;
+}
+
+@media screen and (max-width: 650px){
+    .Content{
+        left: 35%;
+        transform: translate(-30%, -40%);
+
+    }
+    .Content h1{
+        font-size: 1rem;
+    }
+    .Content p{
+        font-size: 1rem;
+    }
+    .Btn{
+        width: 60%;
+        padding: 10px 20px;
+        font-size: .8rem;
+    }
+}
