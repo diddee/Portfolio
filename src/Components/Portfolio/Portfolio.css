@@ -1,0 +1,10 @@
+.Portfolio{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 10vh;
+    height: 100%;
+    background-color: black;
+}
