@@ -20,7 +20,7 @@ const About = () => {
             Totam odit ab unde necessitatibus nostrum voluptate est eveniet quaerat!
           </p>
           <Link to="/Contact" className='Btn'>Contact Me</Link>
-        
+      
         </div>
         <div className='Image'>
           <img src={MyPic} alt="ddidee" />

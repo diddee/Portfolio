@@ -1,10 +1,21 @@
 import React from 'react'
 import NewImg from "../../Assets/img.jpg"
+import Html from "../../Assets/html-removebg-preview.png"
+import Css from "../../Assets/css-removebg-preview.png"
+import Js from "../../Assets/jsx.png"
+import ReactJs from "../../Assets/react2-removebg-preview.png"
+import Github from "../../Assets/git-removebg-preview.png"
+
 import "./Projects.css"
 
 const Projects = () => {
   return (
     <div className='Project'>
+        <div className='Intro'>
+            <h2>My Projects</h2>
+            <p>Check out some of my projects...</p>
+
+        </div>
         <div className='Projects'>
 
             <div className="Single-Project" id="left">
@@ -38,27 +49,27 @@ const Projects = () => {
             <h2>SKILLS</h2>
             <div className="Stack">
                 <div className="Language">
-                    <img src="" alt="" />
+                    <img src={Html} alt="" />
                     <h3>HTML</h3>
                 </div>
 
                 <div className="Language">
-                    <img src="" alt="" />
+                    <img src={Css} alt="" />
                     <h3>CSS</h3>
                 </div>
 
                 <div className="Language">
-                    <img src="" alt="" />
+                    <img src={Js} alt="" />
                     <h3>JAVASCRIPT</h3>
                 </div>
 
                 <div className="Language">
-                    <img src="" alt="" />
-                    <h3>REACT JS.</h3>
+                    <img src={ReactJs} alt="" />
+                    <h3>REACT</h3>
                 </div>
 
                 <div className="Language">
-                    <img src="" alt="" />
+                    <img src={Github} alt="" />
                     <h3>GIT & GITHUB</h3>
                 </div>
             </div>
