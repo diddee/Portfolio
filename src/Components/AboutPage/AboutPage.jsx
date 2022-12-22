@@ -11,6 +11,7 @@ function AboutPage() {
       <Nav />
       <About />
       <Footer />
+      
     </div>
   )
 }

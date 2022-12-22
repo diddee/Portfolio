@@ -22,10 +22,18 @@ const Footer = () => {
       <div className='Right'>
         <p>You can reach me on all social media platforms...</p>
         <div>
-          <FaFacebook className='Icon'/>
-          <FaTwitter className='Icon'/>
-          <FaLinkedin className='Icon'/>
-          <FaGithub className='Icon'/>
+          <a href="">
+            <FaFacebook className='Icon'/>
+          </a>
+          <a href="https://twitter.com/diddee">
+            <FaTwitter className='Icon'/>
+          </a>
+          <a href="">
+            <FaLinkedin className='Icon'/>
+          </a>
+          <a href="https://github.com/ddidee">
+            <FaGithub className='Icon'/>
+          </a>
         </div>
       </div>
 
