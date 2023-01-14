@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <div className='Nav'>
         <div className='Logo'>
-            <h1>Logo</h1>
+            <h1>Ddidee</h1>
         </div>
         <ul className={displayNav ? "NavList active" : "NavList"}>
             <li>
@@ -23,7 +23,7 @@ const Nav = () => {
             </li>
 
             <li>
-                <Link to="/Services">Portfolio</Link>
+                <Link to="/Portfolio">Portfolio</Link>
             </li>
 
             <li>

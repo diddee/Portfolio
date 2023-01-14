@@ -1,5 +1,8 @@
 import React from 'react'
 import NewImg from "../../Assets/img.jpg"
+import Stylerapy from "../../Assets/stylerapy.PNG"
+import Todo from "../../Assets/Todo.PNG"
+import Quiz from "../../Assets/Quiz-Snip2.PNG"
 import Html from "../../Assets/html-removebg-preview.png"
 import Css from "../../Assets/css-removebg-preview.png"
 import Js from "../../Assets/jsx.png"
@@ -19,17 +22,17 @@ const Projects = () => {
         <div className='Projects'>
 
             <div className="Single-Project" id="left">
-                <img src={NewImg} alt="portImage" />
+                <img src={Stylerapy} alt="portImage" />
                 <div className="Overlay"></div>
             </div>
 
             <div className="Single-Project" id="right">
-                <img src={NewImg} alt="portImage" />
+                <img src={Quiz} alt="portImage" />
                 <div className="Overlay"></div>
             </div>
 
             <div className="Single-Project" id="left">
-                <img src={NewImg} alt="portImage" />
+                <img src={Todo} alt="portImage" />
                 <div className="Overlay"></div>
             </div>
 
