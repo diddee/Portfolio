@@ -1,6 +1,7 @@
 import React from 'react'
 import NewImg from "../../Assets/img.jpg"
 import Stylerapy from "../../Assets/stylerapy.PNG"
+import Food from "../../Assets/Food.PNG"
 import Todo from "../../Assets/Todo.PNG"
 import Quiz from "../../Assets/Quiz-Snip2.PNG"
 import Html from "../../Assets/html-removebg-preview.png"
@@ -8,7 +9,7 @@ import Css from "../../Assets/css-removebg-preview.png"
 import Js from "../../Assets/jsx.png"
 import ReactJs from "../../Assets/react2-removebg-preview.png"
 import Github from "../../Assets/git-removebg-preview.png"
-
+import { FaGithub} from "react-icons/fa"
 import "./Projects.css"
 
 const Projects = () => {
@@ -24,26 +25,61 @@ const Projects = () => {
             <div className="Single-Project" id="left">
                 <img src={Stylerapy} alt="portImage" />
                 <div className="Overlay"></div>
+                <div className="Desc">
+                    <h3>E-Commerce Website</h3>
+                    <div className="Code">
+                        <a href="https://github.com/ddidee/Stylerapy"> <FaGithub className="Icon" /> </a>
+
+                    </div>
+                </div>
             </div>
 
             <div className="Single-Project" id="right">
                 <img src={Quiz} alt="portImage" />
                 <div className="Overlay"></div>
+                <div className="Desc">
+                    <h3>Quiz-App</h3>
+                    <div className="Code">
+                        <a href="https://github.com/ddidee/Quiz-App"> <FaGithub className="Icon" /> </a>
+
+                    </div>
+                </div>
             </div>
 
             <div className="Single-Project" id="left">
                 <img src={Todo} alt="portImage" />
                 <div className="Overlay"></div>
+                <div className="Desc">
+                    <h3>To-do List</h3>
+                    <div className="Code">
+                        <a href="https://github.com/ddidee/Task-TO-Do"> <FaGithub className="Icon" /> </a>
+
+                    </div>
+                </div>
             </div>
 
             <div className="Single-Project" id="right">
-                <img src={NewImg} alt="portImage" />
+                <img src={Food} alt="portImage" />
                 <div className="Overlay"></div>
+                <div className="Desc">
+                    <h3>Food Recipe App</h3>
+                    <div className="Code">
+                        <a href="https://github.com/ddidee/Food-Recipe"> <FaGithub className="Icon" /> </a>
+
+                    </div>
+                </div>
             </div>
 
             <div className="Single-Project" id="left">
                 <img src={NewImg} alt="portImage" />
                 <div className="Overlay"></div>
+                <div className="Desc">
+                    <h3>E-Commerce Website</h3>
+                    <div className="Code">
+                        <a href="https://github.com/ddidee/Stylerapy"> <FaGithub className="Icon" /> </a>
+
+                    </div>
+                </div>
             </div>
             
         </div>

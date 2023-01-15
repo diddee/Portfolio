@@ -42,7 +42,7 @@
 .Single-Project .Overlay{
     position: absolute;
     /* background-color: rgba(0, 0, 0, 0.7); */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(167, 56, 74));
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgb(167, 56, 74));
     top: 0%;
     left: 10%;
     height: 100%;
@@ -53,7 +53,29 @@
 .Single-Project:hover .Overlay{
     opacity: 1;
 }
-
+.Single-Project .Desc{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 20%;
+    left: 10%;
+    opacity: 0;
+    width: 80%;
+    height: 60%;
+}
+.Single-Project:hover .Desc{
+    opacity: 1;
+}
+.Single-Project .Code{
+    width: 30%;
+    height: 30%;
+}
+.Code .Icon{
+    color: black;
+    font-size: 2rem;
+}
 .Projects:hover #right{
     animation: left-to-right 1s ease-in;
 }
