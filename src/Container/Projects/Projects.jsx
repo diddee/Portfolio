@@ -2,6 +2,7 @@ import React from 'react'
 import NewImg from "../../Assets/img.jpg"
 import Stylerapy from "../../Assets/stylerapy.PNG"
 import Food from "../../Assets/Food.PNG"
+import Lms from "../../Assets/lms.PNG"
 import Todo from "../../Assets/Todo.PNG"
 import Quiz from "../../Assets/Quiz-Snip2.PNG"
 import Html from "../../Assets/html-removebg-preview.png"
@@ -71,12 +72,12 @@ const Projects = () => {
             </div>
 
             <div className="Single-Project" id="left">
-                <img src={NewImg} alt="portImage" />
+                <img src={Lms} alt="portImage" />
                 <div className="Overlay"></div>
                 <div className="Desc">
                     <h3>E-Commerce Website</h3>
                     <div className="Code">
-                        <a href="https://github.com/ddidee/Stylerapy"> <FaGithub className="Icon" /> </a>
+                        <a href="https://github.com/ddidee/lms"> <FaGithub className="Icon" /> </a>
 
                     </div>
                 </div>
