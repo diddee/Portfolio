@@ -75,7 +75,7 @@ const Projects = () => {
                 <img src={Lms} alt="portImage" />
                 <div className="Overlay"></div>
                 <div className="Desc">
-                    <h3>E-Commerce Website</h3>
+                    <h3> Learning Management Website</h3>
                     <div className="Code">
                         <a href="https://github.com/ddidee/lms"> <FaGithub className="Icon" /> </a>
 
