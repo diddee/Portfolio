@@ -29,7 +29,7 @@ const Projects = () => {
                 <div className="Desc">
                     <h3>E-Commerce Website</h3>
                     <div className="Code">
-                        <a href="https://github.com/ddidee/Stylerapy"> <FaGithub className="Icon" /> </a>
+                        <a href="https://github.com/diddee/Stylerapy"> <FaGithub className="Icon" /> </a>
 
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Projects = () => {
                 <div className="Desc">
                     <h3>Quiz-App</h3>
                     <div className="Code">
-                        <a href="https://github.com/ddidee/Quiz-App"> <FaGithub className="Icon" /> </a>
+                        <a href="https://github.com/diddee/Quiz-App"> <FaGithub className="Icon" /> </a>
 
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const Projects = () => {
                 <div className="Desc">
                     <h3>To-do List</h3>
                     <div className="Code">
-                        <a href="https://github.com/ddidee/Task-TO-Do"> <FaGithub className="Icon" /> </a>
+                        <a href="https://github.com/diddee/Task-TO-Do"> <FaGithub className="Icon" /> </a>
 
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Projects = () => {
                 <div className="Desc">
                     <h3>Food Recipe App</h3>
                     <div className="Code">
-                        <a href="https://github.com/ddidee/Food-Recipe"> <FaGithub className="Icon" /> </a>
+                        <a href="https://github.com/diddee/Food-Recipe"> <FaGithub className="Icon" /> </a>
 
                     </div>
                 </div>
@@ -77,7 +77,7 @@ const Projects = () => {
                 <div className="Desc">
                     <h3> Learning Management Website</h3>
                     <div className="Code">
-                        <a href="https://github.com/ddidee/lms"> <FaGithub className="Icon" /> </a>
+                        <a href="https://github.com/diddee/lms"> <FaGithub className="Icon" /> </a>
 
                     </div>
                 </div>
