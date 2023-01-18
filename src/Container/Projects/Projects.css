@@ -42,7 +42,7 @@
 .Single-Project .Overlay{
     position: absolute;
     /* background-color: rgba(0, 0, 0, 0.7); */
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgb(167, 56, 74));
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgb(167, 56, 74));
     top: 0%;
     left: 10%;
     height: 100%;
@@ -71,6 +71,13 @@
 .Single-Project .Code{
     width: 30%;
     height: 30%;
+}
+.Single-Project .Code a{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding: 1.5rem .3rem .2rem 1rem;
+    border-radius: 20px;
+
 }
 .Code .Icon{
     color: black;

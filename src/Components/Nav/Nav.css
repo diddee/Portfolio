@@ -56,11 +56,16 @@
         left: 0;
     }
     .NavList li{
+        position: relative;
+        top: -25%;
+        left: 15%;
         padding: 1rem 0;
+
     }
     .NavList li a {
         font-size: 2rem;
     }
+    
     .Hamburger{
         display: initial;
         position: fixed;

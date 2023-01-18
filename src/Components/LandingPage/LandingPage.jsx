@@ -20,7 +20,7 @@ const LandingPage = () => {
 
                 <div className='Button'>
                     <Link to="/Contact" className='Btn'>Hire Me</Link>
-                    <button className='Btn-light'>Download CV</button>
+                    <a href="https://drive.google.com/file/d/18I8lXOvZ0bfLS9PY6YBdf6h2v7LC0pgO/view?usp=share_link" className='Btn-light'>Download CV</a>
                 </div>
             
             </div>
