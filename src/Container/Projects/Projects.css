@@ -59,7 +59,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    top: 20%;
+    top: 10%;
     left: 10%;
     opacity: 0;
     width: 80%;
@@ -71,13 +71,6 @@
 .Single-Project .Code{
     width: 30%;
     height: 30%;
-}
-.Single-Project .Code a{
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 100%;
-    padding: 1.5rem .3rem .2rem 1rem;
-    border-radius: 20px;
-
 }
 .Code .Icon{
     color: black;
@@ -139,6 +132,12 @@
         flex-basis: 70%;
     }
 
+    .Single-Project .Code{
+        width: 10%;
+        height: 10%;
+        margin-left: -15%;
+    }
+
     .Language img{
         width: 60%;
     }
@@ -146,6 +145,10 @@
         margin-left: .2rem;
         font-size: small;
         
+    }
+    
+    .Desc h3{
+        font-size: small;
     }
 
 }
